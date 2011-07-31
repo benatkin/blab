@@ -1,0 +1,22 @@
+{
+  "author": "Ben Atkin <ben@benatkin.com> (http://benatkin.com/)",
+  "name": "blab",
+  "description": "Browser Lab",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "0.4.x"
+  },
+  "dependencies": {
+    "browserify": "1.4.x",
+    "jquery-browserify": "1.6.2",
+    "traverse": "0.4.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "bundle": "rm public/bundle.js; browserify -r jquery-browserify -e entry.js -o public/bundle.js"
+  },
+  "private": true
+}

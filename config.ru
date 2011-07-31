@@ -1,0 +1,2 @@
+require './blab'
+run Blab
