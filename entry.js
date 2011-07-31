@@ -1,1 +1,1 @@
-window.$ = require('jquery-browserify');
+window.$ = window.jQuery = require('jquery-browserify');

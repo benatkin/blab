@@ -16,7 +16,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "bundle": "rm public/bundle.js; browserify -r jquery-browserify -r traverse -e entry.js -o public/bundle.js"
+    "bundle": "rm public/bundle.js; browserify -r jquery-browserify -r traverse -e entry.js -e public/jquery-ui-1.8.14.custom.min.js -o public/bundle.js"
   },
   "private": true
 }
